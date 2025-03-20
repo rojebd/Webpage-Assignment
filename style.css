@@ -16,5 +16,22 @@
 }
 
 #my_grade {
-    font-size: 50px;
+    font-size: 20px;
+}
+
+#score {
+    font-size: 20px;
+}
+
+#timer_text {
+    font-size: 20px;
+}
+
+#timer {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 30px;
 }
