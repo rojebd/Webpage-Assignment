@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div id="myDiv">
+    <a href="https://www.chess.com/terms/chess-pieces" style="font-size: 30px;" target="_blank">Learn about Chess pieces!</a>
+    <form action="javascript:submitForm()">
+
+      <h2>Question 1: What is the most important piece in chess?</h2>
+      <img src="https://assetsio.gnwcdn.com/chess-playing-hand.jpeg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp" alt="Photo of a hand playing as black in chess with shiny metal-like pieces" style="width:450px;height:250x">
+      <br>
+      <label for="question1"></label>
+      <input type="text" id="question1" name="Question 1">
+
+      <h2>Question 2: What is the piece in chess that moves diagonally</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg" alt="Photo of a chess images on a table being displayed" style="width:450px;height:250x">
+      <br>
+      <label for="question2"></label>
+      <input type="text" id="question2" name="Question 2">
+
+      <h2>Question 3: What is the piece in chess that moves in an L shape?</h2>
+      <img src="https://images.pexels.com/photos/814133/pexels-photo-814133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of white chess pieces being displayed in front the chess board reflects them from above" style="width:450px;height:250x">
+      <br>
+      <label for="question3"></label>
+      <input type="text" id="question3" name="Question 3">
+
+      <h2>Question 4: What is the piece in chess that you have to protect to win?</h2>
+      <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg" alt="Photo of a a black chess pawn with a mini golden crown on top of it" style="width:450px;height:250x">
+      <br>
+      <label for="question4"></label>
+      <input type="text" id="question4" name="Question 4">
+
+      <br><br>
+      <input type="submit" value="Mark Quiz">
+      
+    </form>
+    <!-- Note this paragraph is purposefully empty because we inject the content later through javascript,
+      its to display the correct answers and such. -->
+    <p id="my_grade"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

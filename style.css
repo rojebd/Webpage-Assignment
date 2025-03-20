@@ -1,0 +1,20 @@
+﻿body {
+    background-image: url('https://img.freepik.com/premium-photo/chess-isolated-white_127657-19861.jpg?w=996');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#myDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -250px;
+    width: 600px;
+    /*    height: 500px; */
+}
+
+#my_grade {
+    font-size: 50px;
+}
